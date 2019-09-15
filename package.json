@@ -1,0 +1,32 @@
+{
+  "name": "simple-md",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -w",
+    "start": "tsc -w",
+    "lint": "tslint --project tsconfig.json",
+    "fix": "tslint --fix --project tsconfig.json",
+    "build": "tsc && babel ./src --out-dir ./lib --extensions \".ts,.js\""
+  },
+  "keywords": [],
+  "author": "",
+  "devDependencies": {
+    "@babel/cli": "^7.6.0",
+    "@babel/core": "^7.6.0",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/plugin-proposal-object-rest-spread": "^7.5.5",
+    "@babel/preset-env": "^7.6.0",
+    "@babel/preset-typescript": "^7.6.0",
+    "@types/chai": "^4.2.2",
+    "@types/mocha": "^5.2.7",
+    "babel-plugin-module-resolver": "^3.2.0",
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0",
+    "module-resolver": "^1.0.0",
+    "ts-node": "^8.3.0",
+    "tslint": "^5.19.0"
+  },
+  "license": "ISC"
+}

@@ -1,0 +1,9 @@
+{
+  "extends": "tslint:recommended",
+  "rules": {
+    "semicolon": [true, "never"],
+    "max-classes-per-file": false,
+    "no-unused-expression": false,
+    "object-literal-sort-keys": false
+  }
+}
